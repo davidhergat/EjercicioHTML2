@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Ejercicio HTML 2</title>
+	<link rel="stylesheet" type="text/css" href="EjercicioHTML2.css">
+</head>
+<body>
+	
+	<h1>Curso Serbatic</h1>
+	<h2>Formulario de registro</h2>
+
+	<form>
+	
+	 <fieldset>
+	  <legend>DATOS PERSONALES</legend>
+	  <label for="nombre">Nombre</label>
+	  <input type="text" id="nombre" name="nombre"><br>
+	  
+	  <label for="apellido1">Primer Apellido</label>
+	  <input type="text" id="apellido1" name="apellido1"><br>
+	  
+	  <label for="apellido2">Segundo Apellido</label>
+	  <input type="text" id="apellido2" name="apellido2"><br>
+	  
+	  <label for="nacimiento">Fecha de nacimiento</label>
+	  <input type="date" id="nacimiento" name="nacimiento"><br>
+	 </fieldset>
+	 
+	 <fieldset>
+		<legend>DOMICILIO</legend>
+		<label for="">País</label>
+		<select id="pais" name="pais">
+			<option>o1</option>
+			<option>o2</option>
+			<option>o3</option>
+		</select><br>
+		
+		<label for="direccion">Dirección</label>
+		<input type="text" id="direccion" name="direccion">
+		
+		<label for="codpostal">Código postal</label>
+		<input type="text" id="codpostal" name="codpostal" maxlength="5"><br>
+		
+		<label for="localidad">Localidad</label>
+		<input type="text" id="localidad" name="localidad">
+		
+		<label for="provincia">Provincia</label>
+		<select id="provincia" name="provincia">
+			<option>p1</option>
+			<option>p2</option>
+			<option>p3</option>
+		</select><br>
+	 </fieldset>
+	 
+	 	 <fieldset>
+	  <legend>DATOS PERSONALES</legend>
+	  <label for="telefono">Telefono</label>
+	  <input type="text" id="telefono" name="telefono" maxlength="9"><br>
+	  
+	  <label for="movil">Móvil</label>
+	  <input type="text" id="movil" name="movil" maxlength="9"><br>
+	  
+	  <label for="correo">e-mail</label>
+	  <input type="email" id="correo" name="correo" ><br>
+	 </fieldset>
+	 
+	 <div id="Condiciones">
+	 
+		<input type="checkbox" id="cboxCondiciones" value="condicionesAceptadas">
+		Acepto el acuerdo de servicios, la declaración de privacidad y la declaracion de uso de cookies
+		
+	 </div>
+	 
+	 <div id="GrupoBotones">
+		<input type="submit" value="Registrar">
+		<input type="reset" value="Limpiar">
+	 </div>
+	 
+	</form>
+
+</body>
+</html>
